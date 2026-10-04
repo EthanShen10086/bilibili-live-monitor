@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+var/
+*.log
+
+.runtime/
+.npm-cache/
+vendor/bilibili-live-ws/**/*.js
+vendor/bilibili-live-ws/**/*.d.ts
+
+.node-gyp/
