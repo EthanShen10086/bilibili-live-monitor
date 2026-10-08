@@ -49,3 +49,7 @@
 - 新增双端 `service verify-recovery`：健康与管理器PID匹配后显式SIGKILL，等待新的健康PID。5项新增回归验证通过，普通测试总计34通过/1跳过；未执行真实云端SIGKILL或主机重启。
 - Mac service doctor 和 service health 在本次构建后实测通过；没有中断当前订阅进程。
 - 新增 REPRODUCE_MAC.md、CLOUD_DEPLOYMENT.md、IMPLEMENTATION.md。真实云端资源缺失，所有服务器/SSH/开机/手机验收记录保持待填。
+
+## 2026-10-08 分钟级间隔
+
+默认 interval_minutes: 1；36 项测试通过，1 项真实联网测试跳过。现有 Mac 配置校验通过；工具重启被系统 Operation not permitted 拒绝，需普通终端更新后复查状态 polling_interval_seconds=60。
