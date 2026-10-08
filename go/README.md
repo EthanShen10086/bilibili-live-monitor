@@ -16,3 +16,5 @@ chmod 600 .env
 若默认模块代理下载缓慢，可为本次构建设置 `GOPROXY=https://goproxy.cn,https://proxy.golang.org,direct`，保持 Go checksum 校验开启。这里不修改全局 Go 设置。
 
 轮询间隔设置：[分钟级配置](../docs/POLLING_INTERVAL.md)。
+
+后台资源优化：[说明及复现](../docs/RESOURCE_OPTIMIZATION.md)。

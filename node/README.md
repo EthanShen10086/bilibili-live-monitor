@@ -235,3 +235,5 @@ PATH="$PWD/.runtime/node_modules/node/bin:$PATH" npm test
 默认时段约 1,440 次查询/周/房间，不把「通常每周两次直播」当通知次数上限。
 
 轮询间隔设置：[分钟级配置](../docs/POLLING_INTERVAL.md)。
+
+后台资源优化：[说明及复现](../docs/RESOURCE_OPTIMIZATION.md)。
