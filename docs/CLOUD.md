@@ -92,3 +92,5 @@ journalctl --user -u live-monitor.service -n 100
 服务实际 unit 名以 doctor 和安装输出为准。verify-recovery 会杀掉当前受管理进程，验证新 PID 和检测器恢复；须在可接受短暂停顿时执行。服务器 reboot 由管理员操作，随后检查开机后自动恢复、群消息和两端唯一运行。尚无云主机资源时，这些命令与源码测试不能代替真实云端验收。
 
 更新二进制前 stop，保留数据库和 .env，替换后 start/health。tRPC 的 19028/19029 不打开安全组，可用 SSH 端口转发访问。Node 云端详细手册另见 node/CLOUD_DEPLOYMENT.md。
+
+可选扩展云端部署见 [CLOUD_PLATFORM.md](CLOUD_PLATFORM.md)。

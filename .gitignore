@@ -22,3 +22,9 @@
 **/coverage/
 .DS_Store
 .work/
+
+/go/deploy/cloud/config.yaml
+/go/deploy/cloud/config.sender.yaml
+/go/deploy/cloud/trpc.sender.yaml
+/go/deploy/cloud/tls/*
+/go/deploy/cloud/auth/*

@@ -27,3 +27,5 @@
 开播通知成功后自动改为每 5 分钟确认直播状态，观测到下播恢复每 1 分钟；可用 `notified_live_interval_minutes` 调整。详见资源优化手册。
 
 资源保护与复现：[响应上限、日志轮转、历史保留和等待确认节流](docs/RESOURCE_SAFETY.md)。
+
+可选 tRPC-Go 云平台能力：PostgreSQL / Redis / Streams、租约与 Nginx HTTPS；本地默认仍为 SQLite。详见 [云端平台手册](docs/CLOUD_PLATFORM.md)。
